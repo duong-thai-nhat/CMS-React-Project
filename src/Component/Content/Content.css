@@ -1,0 +1,14 @@
+.content{
+    width: 100%;
+    background-color: #fff;
+    min-height: 740px;
+    padding: 18px;
+    border-radius: 17px;
+}
+
+.content-heading{
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 900;
+    color: #000;
+}

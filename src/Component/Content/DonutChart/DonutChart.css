@@ -1,0 +1,12 @@
+.donutChart{
+    margin-top: 100px;
+}
+
+.donutChart-item{
+    flex: 1;
+}
+
+.donutChart-item:first-child,
+.donutChart-item:last-child{
+    flex: 0.6;
+}

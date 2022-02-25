@@ -1,0 +1,17 @@
+.navbar{
+    /* flex: 1; */
+}
+
+.navbar-menu{
+    display: flex;
+    margin: 12px 24px 0
+}
+
+.navbar-menu-container-logo{
+    width: 206px;
+    min-width: 206px;
+}
+
+.navbar-logo{
+    width: 95px;
+}

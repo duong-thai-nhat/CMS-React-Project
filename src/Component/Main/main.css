@@ -1,0 +1,11 @@
+.main{
+    position: relative;
+    background-color: #F9F6F4;  
+    border-radius: 17px;
+    max-width: 1368px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 auto;
+}

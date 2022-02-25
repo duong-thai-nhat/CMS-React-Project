@@ -1,0 +1,24 @@
+.AccNotiEMail-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.AccNotiEMail-item + .AccNotiEMail-item {
+    padding-left: 18px;
+}
+
+.AccNotiEMail-avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.AccNotiEMail-icon{
+    width: 14px;
+}
+
+.AccNotiEMail-img{
+    width: 100%;
+}

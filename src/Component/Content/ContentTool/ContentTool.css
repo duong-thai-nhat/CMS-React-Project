@@ -1,0 +1,75 @@
+.content-tool,
+.content-filter,
+.content-filter-export{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-input-search{
+    position: relative;
+    display: flex;
+    width: 318px;
+    border-radius: 5px;
+    background-color: #F7F7F8;
+    padding: 8px 40px 8px 10px;
+    margin: 24px 0;
+    align-items: center;
+}
+
+.content-search{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: normal;
+    font-style: italic;
+    color: #1E0D03;
+    background-color: #F7F7F8;
+    outline: none;
+    border: none;
+}
+
+.content-search-icon{
+    position: absolute;
+    width: 18px;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.content-filter-export-item{
+    border: 1px solid #FF993C;
+    cursor: pointer;
+}
+
+.content-filter{
+    padding: 8px 12px;
+    margin-right: 7px;
+    border-radius: 4px;
+}
+
+.content-export{
+    padding: 8px 17px;
+    border-radius: 6px;
+}
+
+.content-filter-export{
+    color: #FF993C;
+    font-size: 13px;
+}
+
+.content-filter-icon{
+    margin-right: 8px;
+}
+
+.content-filter-export-text{
+    font-weight: 900;
+}
+
+/* Modal popup*/
+[data-testid="overlay"]{
+    background-color: rgba(0, 0, 0, 0.5);
+}
